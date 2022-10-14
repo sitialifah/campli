@@ -1,0 +1,103 @@
+
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- User profile -->
+                <div class="user-profile">
+                    <!-- User profile image -->
+                    <div class="profile-img"> <img src="{{ url_for('static', filename='assets/images/users/profile.png') }}" alt="user" />
+                        <!-- this is blinking heartbit-->
+                        <div class="notify setpos"> <span class="heartbit"></span> <span class="point"></span> </div>
+                    </div>
+                    <!-- User profile text-->
+                    <div class="profile-text">
+                        <h5>Markarn Doe</h5>
+                        <div class="dropdown-menu animated flipInY">
+                            <!-- text-->
+                            <a href="#" class="dropdown-item"><i class="ti-user"></i> My Profile</a>
+                            <!-- text-->
+                            <a href="#" class="dropdown-item"><i class="ti-wallet"></i> My Balance</a>
+                            <!-- text-->
+                            <a href="#" class="dropdown-item"><i class="ti-email"></i> Inbox</a>
+                            <!-- text-->
+                            <div class="dropdown-divider"></div>
+                            <!-- text-->
+
+                            <!-- text-->
+                        </div>
+                    </div>
+                </div>
+                <!-- End User profile text-->
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="nav-devider"></li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="{{ url_for('campli.beranda') }}" aria-expanded="false"><i
+                            class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard <span
+                                class=""></span></span></a>
+                        </li>
+                        
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                            class="mdi mdi-account"></i><span class="hide-menu">Pengguna</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="{{ url_for('campli.tambahuser') }}">Tambah Pengguna</a></li>
+                                <li><a href="{{ url_for('campli.tabeluser') }}">Daftar Pengguna</a></li>
+                            </ul>
+                        </li>
+
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                            class="wi wi-day-showers"></i><span class="hide-menu">Sensor</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="{{ url_for('campli.tambahsensorsuhu') }}">Tambah Sensor Suhu</a></li>
+                                <li><a href="{{ url_for('campli.tambahsensorkelembabanudara') }}">Tambah Sensor Kelembaban Udara</a></li>
+                            </ul>
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                            class="icon-book-open"></i><span class="hide-menu">Bacaan Sensor</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="{{ url_for('campli.bacaansuhu') }}">Tambah Bacaan Suhu</a></li>
+                                <li><a href="{{ url_for('campli.bacaankelembabanudara') }}">Tambah Bacaan Kelembaban Udara</a></li>
+                                <li><a href="{{ url_for('campli.bacaanpot') }}">Tambah Bacaan Pot</a></li>
+                            </ul>
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                            class="mdi mdi-settings"></i><span class="hide-menu">Aktuator</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="{{ url_for('campli.tambahaktuator') }}">Tambah Aktuator</a></li>
+                                <li><a href="{{ url_for('campli.tabelaktuator') }}">Tabel Aktuator</a></li>
+                            </ul>
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                            class="mdi-close-box"></i><span class="hide-menu">Pot</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="{{ url_for('campli.tambahpot') }}">Tambah Pot</a></li>
+                                <li><a href="{{ url_for('campli.tabelpot') }}">Tabel Pot</a></li>
+                            </ul>
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                                    class="mdi mdi-table"></i><span class="hide-menu">Tabel Sensor</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="{{ url_for('campli.tabelsensorsuhu') }}">Data Sensor Suhu</a></li>
+                                <li><a href="{{ url_for('campli.tabelsensorkelembabanudara') }}">Data Sensor Kelembaban Udara</a></li>
+                            </ul>
+                        </li>
+                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i
+                                class="mdi mdi-table"></i><span class="hide-menu">Tabel Bacaan</span></a>
+                            <ul aria-expanded="false" class="collapse">
+                                <li><a href="{{ url_for('campli.tabelbacaansuhu') }}">Data Bacaan Sensor Suhu</a></li>
+                                <li><a href="{{ url_for('campli.tabelbacaankelembabanudara') }}">Data Bacaan Sensor Kelembaban Udara</a></li>
+                                <li><a href="{{ url_for('campli.tabelbacaanpot') }}">Data Bacaan Sensor Pot</a></li>
+                            </ul>
+                        </li> 
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->

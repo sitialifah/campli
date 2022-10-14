@@ -1,0 +1,27 @@
+{% include "layout/admin/head.j2" %}
+{% include "layout/admin/header.j2" %}
+{% include "layout/admin/aside.j2" %}
+<div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="row page-titles">
+                <div class="col-md-5 align-self-center">
+                    <h3 class="text-themecolor">{{ judul }}</h3>
+                </div>
+                <div class="col-md-7 align-self-center">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="beranda">Beranda</a></li>
+                        <li class="breadcrumb-item">{{ judul_breadcrumb }}</li>
+                        <li class="breadcrumb-item active">{{ isi_breadcrumb }}</li>
+                    </ol>
+                </div>
+
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+			<main>
+				{% block main %}{% endblock main %}
+			</main>
+{% include "layout/admin/footer.j2" %}

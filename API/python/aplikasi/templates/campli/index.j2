@@ -1,0 +1,95 @@
+{% include "layout/campli/head.j2" %}
+{% include "layout/campli/header.j2" %}
+{% include "layout/campli/aside.j2" %}
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="row page-titles">
+                <div class="col-md-5 align-self-center">
+                    <h3 class="text-themecolor">Dashboard</h3>
+                </div>
+                <div class="col-md-7 align-self-center">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard</li>
+                    </ol>
+                </div>
+                <div>
+                    <button
+                        class="right-side-toggle waves-effect waves-light btn-inverse btn btn-circle btn-sm pull-right m-l-10"><i
+                            class="ti-settings text-white"></i></button>
+                </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+            <!-- isi dashboar -->
+
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <!-- card -->
+                    <div class="card card-inverse card-info">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="m-r-20 align-self-center">
+                                    <h1 class="text-white"><i class="wi wi-day-snow-wind"></i></h1></div>
+                                <div>
+                                    <h4 class="card-title">Kondisi terkini:</h4>
+                                    <h5 class="card-subtitle">Suhu</h5>
+                                    <h2 class="font-bold text-white"><span>73<sup>°</sup></span></h2> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card -->
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card card-inverse card-success">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="m-r-20 align-self-center">
+                                    <h1 class="text-white"><i class="wi wi-humidity"></i></h1></div>
+                                    <div>
+                                        <h4 class="card-title">Kondisi terkini:</h4>
+                                        <h5 class="card-subtitle">Kelembaban udara</h5>
+                                        <h2 class="font-bold text-white"><span>83 %</span></h2> 
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <!-- card -->
+                    <div class="card card-inverse card-danger">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="m-r-20 align-self-center">
+                                    <h1 class="text-white"><i class=" wi wi-horizon-alt"></i></h1></div>
+                                    <div>
+                                        <h4 class="card-title">Kondisi terkini:</h4>
+                                        <h5 class="card-subtitle">Kelembaban tanah</h5>
+                                        <h2 class="font-bold text-white"><span>83 %</span></h2> 
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card -->
+                </div>
+            </div>
+
+        
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+{% include "layout/campli/footer.j2" %}

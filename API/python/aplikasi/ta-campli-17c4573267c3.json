@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ta-campli",
+  "private_key_id": "17c4573267c3cb57976a5aa98019c5f825bfd2ef",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZK5PWprdFJLMJ\nQ6p2kBd6tSsjjQdmay5EzBjNTrxm8QJrnEVbynwpCCXV4tJaeh1JDue+gZA/8zjA\nFm2+7Dzebfl8yd2CyW1yhP4sfb30+RikFdu8xbTQSLzRiUX5lUD9KetPY0QJ4K9h\nvyWb1/c8zC89Gfg/W1se4cPMnSq+RBo1UUlH7QWvmn7Ph6534e13+2uO6feFu+kc\nh15uPBdjMrJGyzArgEjV3vu7D32ZEz/P8iEIUBp+Ks9XdsQ5ahrFBklPfjCiJWC1\njvWpu9TEMco8iIuQJZiMPcWBhEQ0ipqYXWy1PeGnjkJ9rlJQu5Ajd2ef+kC8kxmO\n1r24BetjAgMBAAECggEADycOeF0EeGSfCZBAxtCOYhHrc0LlCS7FOa0Z2bBWVwtf\nT+ylDTrveX0C29vqhLoxN3mwAgVTPeBT1ueLx9LFsBjKZkaaEUbX+veeesxIWc8N\nWajdP27XlQX9F/Av6fbn96OJUdCMzzquXvRym1jhbomh4AuM/Bzk23M+KXnK3Ajo\nEBjFZKpozZvAxVqgX8ucgMHgWIuRVn72e7VlxqRH9GCS7OlZcqTFLS71NTzJICO5\n1i5sY9c34ptueqChkKcATYG2Lz0CcEUSeMxU4OXZVJ6EncC58R8RHcBdk1CDFlgE\nY8RcxnowVA9W65bH6pZxE7wo+82zYnx8IZlkE8ESgQKBgQDV/daHQDNlxr3JB/zW\nOqXk06YKetYLXc0EtLXflzE6GrPaiH39q1TkvRxZmIZqD1eSUKUOKXIdHZ0RBYFJ\nF2hCzdaPw4/+CocY11ihbmU8UGbIGp8kUejd1VpqCYzFQnIE/TOUUZuUOVfe6ePl\n5Q10r19fm8HfcSWkz62a2KzfYQKBgQC3PSisfj49OHhScSUPlOuGAhWUQwRKa1z3\naUVXTMl6hCah7mkqVyywHzsMvTBMOsEMekNPsdeoEXoxzQFzZUTM3PedSjSFg8NX\ngnESCAEWIWe36ihG3uekH1yhvWEk6RNy1zsymCouVQiZbPmJWWWtVWdsEzli1yI5\naMjUb0SVQwKBgQCxsGS5zBqhsWSYEHTnIq3sE771RsiDibEa7j9zWSU8PT4JAXu0\n7tbAVTO8RgWe/fxWd3aHCu1BtfxdTPfszG37wtYebGIdrXo+q1piObwAWDbwhAKP\ncyBtS6MXF7T3e1QYRnPU/eq1KuSHKineFNOWh6UnS7uxoU+Dyhs60B7EIQKBgExM\nihgxRQdG8Usa09zGHMAjNAsVUL8QL5jR2867KZX7Wv7IgD/iJrh7eKIYUPkc6e+h\nJVAU9ICGLoR4IaeEPn6zb+Ot12rU780LgruIW7N0W3TIatb/0CKV8INkkQPGjZOf\nLYYmuEGspLUGHG3lrKHdUwA8jQOsIxMWn7FdV4hzAoGAZgwzLcgjSHryaL+wbGIo\nrTLLtPKCGAbuxcfP3JF08aGf9v1R8klzEWs9xlmAX+7rfqq4wC/nb/bs0OzdSlFL\nnQP90DOi8Wv26/Z7c7sRBTkimljp/nfJyylnSe9MSE5d8F/JHlJ6DW1RHAtEbhj1\nHXCqxPWVV9XS0OKcRgJDkUE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "campli@ta-campli.iam.gserviceaccount.com",
+  "client_id": "112585787460861743224",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/campli%40ta-campli.iam.gserviceaccount.com"
+}

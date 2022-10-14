@@ -1,0 +1,13 @@
+blinker
+simplejson
+watchdog
+requests
+Flask
+google-cloud-datastore
+requests
+oauthlib
+pyOpenSSL
+Flask-Login
+google-cloud-storage
+pyyaml
+GoogleAppEngineCloudStorageClient
